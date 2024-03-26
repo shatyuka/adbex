@@ -1,0 +1,3 @@
+[submodule "external/plthook"]
+	path = external/plthook
+	url = git@github.com:kubo/plthook.git

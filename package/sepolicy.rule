@@ -1,0 +1,7 @@
+permissive su
+permissive adbd
+allow init adbd process noatsecure
+allow init adbd process2 nosuid_transition
+allow system_server su fd use
+allow system_server su unix_stream_socket { connectto getattr getopt ioctl read write shutdown }
+allow system_server su binder call

@@ -1,0 +1,10 @@
+# IDEs
+.idea
+.vscode
+
+# Build directories
+build
+cmake-build-*
+
+# System
+.DS_Store

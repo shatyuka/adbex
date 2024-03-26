@@ -1,0 +1,8 @@
+*
+!*/
+!.gitignore
+!META-INF/**
+!customize.sh
+!module.prop
+!post-fs-data.sh
+!sepolicy.rule
