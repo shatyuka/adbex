@@ -46,6 +46,11 @@ allow system_server su unix_stream_socket { connectto getattr getopt ioctl read 
 allow system_server su binder call
 ```
 
+Fix app debug:
+```
+allow untrusted_app su unix_stream_socket { connectto getattr getopt ioctl read write shutdown }
+```
+
 ### Custom Shell
 Hook `execle` to replace shell with whatever we want.
 
